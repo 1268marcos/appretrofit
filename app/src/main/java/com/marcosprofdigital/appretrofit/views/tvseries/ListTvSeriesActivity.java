@@ -1,5 +1,5 @@
 package com.marcosprofdigital.appretrofit.views.tvseries;
-// 17.2
+// 17.2 - Classe
 import android.content.Intent;
 import android.os.Bundle;
 import android.util.Log;
