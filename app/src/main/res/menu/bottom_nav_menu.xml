@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:id="@+id/item_popular"
+        android:icon="@drawable/ic_popular"
+        android:title="Popular"/>
+
+    <item android:id="@+id/item_popular_past"
+        android:icon="@drawable/ic_popular_past"
+        android:title="Passado"/>
+
+    <item android:id="@+id/item_random"
+        android:icon="@drawable/ic_random"
+        android:title="@string/choice_today"/>
+
+    <item android:id="@+id/item_trending"
+        android:icon="@drawable/ic_trending"
+        android:title="Tendências"/>
+
+</menu>
