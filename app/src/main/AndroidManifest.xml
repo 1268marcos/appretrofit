@@ -17,7 +17,7 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.AppRetrofit">
         <activity
-            android:name=".views.movie.ListMovieActivity"
+            android:name=".views.MainActivity"
             android:exported="true">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -26,8 +26,20 @@
             </intent-filter>
         </activity>
 
+        <activity
+            android:name=".views.movie.ListMovieActivity"
+            android:parentActivityName=".views.MainActivity"></activity>
+
         <activity android:name=".views.movie.MovieDetails"
             android:parentActivityName=".views.movie.ListMovieActivity"></activity>
+
+        <activity
+            android:name=".views.tvseries.ListTvSeriesActivity"
+            android:parentActivityName=".views.MainActivity"></activity>
+
+        <activity
+            android:name=".views.tvseries.TvSeriesDetails"
+            android:parentActivityName=".views.tvseries.ListTvSeriesActivity"></activity>
 
     </application>
 
