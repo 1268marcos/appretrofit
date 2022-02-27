@@ -16,7 +16,9 @@ android {
 
         // A valid key will need to be entered
         // Please ensure you have a valid API KEY for themoviedb.org to use this app
-        buildConfigField("String", "API_KEY", API_KEY)
+        Properties properties = new Properties()
+        properties.load(project.rootProject.file('local.properties').newDataInputStream())
+        buildConfigField("String", "API_KEY", "${properties.getProperty('API_KEY')}")
 
     }
 
